@@ -40,10 +40,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Characters\Hero.cs" />
+    <Compile Include="Interfaces\IBattleLocation.cs" />
     <Compile Include="Interfaces\IFighter.cs" />
     <Compile Include="Items\Armour.cs" />
     <Compile Include="Items\Item.cs" />
     <Compile Include="Items\Weapon.cs" />
+    <Compile Include="Locations\DefaultLocation.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />
